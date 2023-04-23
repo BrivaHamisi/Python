@@ -1,0 +1,1 @@
+A method id a function that belongs to an object
