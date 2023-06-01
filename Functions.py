@@ -22,7 +22,18 @@ print(hello_func().capitalize())
 
 #Passing arguments to a Function
 def hello_func(greeting, name = 'You'):
-    return '{}, {} Function'.format(greeting, name)
+    return '{}, {}'.format(greeting, name)
 
 print(hello_func('Hi', name='Briva'))
+
+
+def student_info(*args, **Kwargs):
+    print(args)
+    print(Kwargs)
+
+courses = ['math', 'Art']
+info = {'name': 'John', 'age': 23}
+
+
+student_info(*courses, **info)
 
