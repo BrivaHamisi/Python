@@ -33,7 +33,6 @@ def student_info(*args, **Kwargs):
 
 courses = ['math', 'Art']
 info = {'name': 'John', 'age': 23}
-
-
+ 
 student_info(*courses, **info)
 
