@@ -108,7 +108,9 @@ print(cs_courses)
 print('Maths' in cs_courses)
 
 art_courses = {'History', 'Maths', 'Art', 'Design'}
+
 print(cs_courses.intersection(art_courses))
+
 print(cs_courses.difference(art_courses))
 print(cs_courses.union(art_courses))
 
