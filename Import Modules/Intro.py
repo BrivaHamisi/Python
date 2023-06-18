@@ -1,3 +1,7 @@
+
+import My_Modules
+
 courses = ['History', 'Math', 'Physics', 'CompSci']
 
-#changes
+index = My_Modules.find_index(courses, 'Math')
+print(index)
